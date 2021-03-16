@@ -42,7 +42,7 @@ public class App {
 			} else if(studPick == 2){
 				System.out.println("Grades: \nHomework #1 20/20 \nHomework #2 18/20");
 			}else if(studPick == 3){
-				System.out.println("Zoom: \nRoom Code:428 421 2414\n Passcode:Classiscool");
+				System.out.println("Zoom: \nRoom Code:428 421 2414\nPasscode:Classiscool");
 			}
 		} else {
 			System.out.println("Sorry you entered an invalid Student ID.");

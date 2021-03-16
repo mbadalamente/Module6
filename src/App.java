@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class App {
 	public static void main(String[] args) {
 		Scanner console = new Scanner(System.in);
-		System.out.println("Welcome to our app! I hope you are doing well! What would you like to do today?");
-		System.out.println("Enter the number of the option you would like.");
-		System.out.println("1. Look at coursework \n2. Check on mental health \n3. Update zoom preferences");
+		System.out.println("Welcome to our app! I hope you are doing well! \nWhat would you like to do today?");
+		System.out.println("Enter the number of the option you would like:");
+		System.out.println("\t1. Coursework \n\t2. Mental health \n\t3. Zoom preferences");
 		
 		int userPick = console.nextInt();
 		
@@ -18,6 +18,9 @@ public class App {
 		}
 		else if(userPick == 3) {
 			zoomPreferences();
+		}
+		else {
+			System.out.println("Please enter a valid number");
 		}
 	}
 	
